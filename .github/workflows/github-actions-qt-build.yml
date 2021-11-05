@@ -14,7 +14,7 @@ jobs:
           submodules: true
 
       - name: Cache Qt
-        uses: actions/cache@v2
+        uses: actions/cache@v1
         id: cache-qt-windows
         with:
           path: ${{ runner.workspace }}/Qt
