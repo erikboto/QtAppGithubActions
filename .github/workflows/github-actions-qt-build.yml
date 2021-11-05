@@ -32,7 +32,7 @@ jobs:
         uses: ilammy/msvc-dev-cmd@v1
         with:
           arch: amd64_x86
-        env:
-          PLATFORM: windows
+
+      -name: Build2
         shell: bash
         run: ./.ci/build.sh
