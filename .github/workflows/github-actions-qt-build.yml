@@ -28,11 +28,11 @@ jobs:
           arch: 'win32_msvc2019'
           cached: ${{ steps.cache-qt-windows.outputs.cache-hit }}
 
-      - name: Build
+      - name: Set up build environment
         uses: ilammy/msvc-dev-cmd@v1
         with:
           arch: amd64_x86
 
-      - name: Build2
+      - name: Build
         shell: bash
         run: ./.ci/build.sh
