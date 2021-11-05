@@ -28,11 +28,10 @@ jobs:
           arch: 'win32_msvc2019'
           cached: ${{ steps.cache-qt-windows.outputs.cache-hit }}
 
-      - name: Set up x86 build architecture environment
-        shell: cmd
-        run: call "${{env.VCINSTALLDIR}}\Auxiliary\Build\vcvars32.bat"
-
       - name: Build
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: amd64_x86
         env:
           PLATFORM: windows
         shell: bash
