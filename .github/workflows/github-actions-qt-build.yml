@@ -33,6 +33,6 @@ jobs:
         with:
           arch: amd64_x86
 
-      -name: Build2
+      - name: Build2
         shell: bash
         run: ./.ci/build.sh
