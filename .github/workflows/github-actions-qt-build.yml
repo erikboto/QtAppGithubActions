@@ -49,4 +49,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: my-zip
-          path: QtWidgetsApp.zip
+          path: build/QtWidgetsApp.zip
