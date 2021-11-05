@@ -3,4 +3,4 @@
 mkdir build
 cd build
 qmake.exe ..
-make
+nmake.exe
