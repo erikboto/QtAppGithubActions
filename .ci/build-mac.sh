@@ -5,7 +5,4 @@ cd build
 qmake ..
 make 
 find .
-mkdir QtWidgetsApp
-cp release/QtWidgetsApp QtWidgetsApp/
-cd QtWidgetsApp
-macdeployqt QtWidgetsApp
+macdeployqt QtWidgetsApp.app -dmg
