@@ -5,6 +5,6 @@ cd build
 qmake ..
 make 
 find .
+ls -l QtWidgetsApp.app/Contents/MacOS/QtWidgetsApp
 macdeployqt QtWidgetsApp.app -dmg
-mkdir QtWidgetsAppMac
-mv QtWidgetsApp.app QtWidgetsAppMac/
+ls -l QtWidgetsApp.app/Contents/MacOS/QtWidgetsApp
