@@ -2,7 +2,7 @@
 
 mkdir build
 cd build
-qmake.exe ..
+qmake ..
 make 
 find .
 mkdir QtWidgetsApp
