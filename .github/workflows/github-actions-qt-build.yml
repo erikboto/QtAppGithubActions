@@ -75,4 +75,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: QtWidgetsApp
-          path: build/QtWidgetsApp/
+          path: build/QtWidgetsApp.app
